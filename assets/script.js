@@ -55,27 +55,29 @@ function generatePassword() {
 
   var specialChar = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
 
-  // Array for password generation
-  var returnPass = "";
+  // Array of potential characters for password generation
+  var passwordChar = "";
 
   if(lowerCase) {
-    returnPass += lowerCaseChar;
+    passwordChar += lowerCaseChar;
   }
   if(upperCase) {
-    returnPass += upperCaseChar;
+    passwordChar += upperCaseChar;
   }
   if(numeric) {
-    returnPass += numericChar;
+    passwordChar += numericChar;
   }
   if(special) {
-    returnPass += specialChar;
+    passwordChar += specialChar;
   }
 
+  // Generated password from randomly chosen characters in passwordChar
+  var genPassword = "";
+
   for(i = 0; i < passLength; i++) {
-    debugger;
-    returnPass[i] = returnPass[Math.floor(Math.random() * returnPass.length)];
+    genPassword += passwordChar[Math.floor(Math.random() * passwordChar.length)];
   }
-  return returnPass;
+  return genPassword;
 }
 
 // Get references to the #generate element
