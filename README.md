@@ -1,6 +1,8 @@
 # Password Generator
 An application that generates a secure password that meets the criteria provided by the user.
 
+<img src="./assets/images/pass-gen-sc.PNG" />
+![Password Generator Screenshot](./assets/images/pass-gen-sc.PNG)
 
 ## Password Length
 The user is able to decide how long they would like their password to be (between 8 and 128 characters long).
