@@ -1,7 +1,7 @@
 # Password Generator
 An application that generates a secure password that meets the criteria provided by the user.
 
-![Password Generator Screenshot](./assets/images/pass-gen-sc.png)
+
 <img src="./assets/images/pass-gen-sc.png" />
 
 ## Password Length
