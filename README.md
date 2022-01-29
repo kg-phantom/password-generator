@@ -19,3 +19,8 @@ After the user has submitted their input for the prompts, the input is validated
 
 ## Displaying the Password
 The generated password is then printed on the page for the user to view and copy.
+
+## Built With
+- HTML
+- CSS
+- JavaScript
